@@ -81,6 +81,17 @@ $(function () {
 	    	}
 		});
 
+		var lastScrollTop = 0;
+		$(window).scroll(function(event) {
+			var st = $(this).scrollTop();
+			if (st > lastScrollTop) {
+				$('.js-colorlib-nav-toggle').hide();
+			} else {
+				$('.js-colorlib-nav-toggle').show();
+			}
+			lastScrollTop = st;
+		});
+
 	};
 
 	var clickMenu = function() {
@@ -119,4 +130,4 @@ $(function () {
 	});
 
 
-}());
+});

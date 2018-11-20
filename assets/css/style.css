@@ -244,6 +244,11 @@ h1, h2, h3, h4, h5, h6 {
 #colorlib-hero .flex-direction-nav {
   display: none; }
 
+#colorlib-hero .slider-text {
+  display: table;
+  min-height: 500px;
+}
+
 #colorlib-hero .slider-text > .slider-text-inner {
   display: table-cell;
   vertical-align: middle;
@@ -878,11 +883,11 @@ h3 a {
 }
 
 /* Devicon li's */
-td {
+/* td {
   padding: 8px !important;
-}
+} */
 .pretty {
-  padding: 20px;
+  padding: 28px;
 }
 .devstack li {
   text-decoration: none;
@@ -935,6 +940,11 @@ td {
   background-color: rgba(0,0,0,0.7);
 }
 
+.mediaContact {
+  display: inline-block; 
+  float: none;
+}
+
 .title {
   font-family: 'Muli',sans-serif;
   color: rgba(255,255,255,.85);
@@ -982,6 +992,8 @@ td {
     width: 100%; }   
   #colorlib-hero .slider-text > .slider-text-inner .heading-section h1 {
     font-size: 30px; }   
+  #colorlib-hero .slider-text > .slider-text-inner h1 {
+    font-size: 28px; }     
   #colorlib-hero .slider-text > .slider-text-inner {
     text-align: center; } 
   #colorlib-hero .flex-control-nav {
@@ -1015,7 +1027,7 @@ td {
     font-size: 18px;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
